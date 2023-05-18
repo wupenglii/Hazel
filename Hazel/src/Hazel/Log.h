@@ -1,5 +1,4 @@
 #pragma once
-#include <memory>
 
 #include "Core.h"
 #include "spdlog/spdlog.h"
@@ -31,6 +30,7 @@ namespace Hazel {
 #define HZ_INFO(...)            ::Hazel::Log::GetClientLogger()->info(__VA_ARGS__)
 #define HZ_TRACE(...)           ::Hazel::Log::GetClientLogger()->trace(__VA_ARGS__)
 #define HZ_FATAL(...)           ::Hazel::Log::GetClientLogger()->fatal(__VA_ARGS__)
+
 
 
 
